@@ -67,7 +67,7 @@ var player_name: String = "lemonpie"
 #part2
 func take_damage(amount: int) -> void:
 	health -= amount
-	print("Took " + str(amount) + " damage | HP: " + str(health) + "/" + str(max_health))
+	print(str(amount) + " damage | HP: " + str(health) + "/" + str(max_health))
 
 #part3 
 func heal() -> void:
