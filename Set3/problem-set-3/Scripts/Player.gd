@@ -43,17 +43,19 @@ Part 4)
 Variable fun time! Here are some exercises to make sure you understand variables. If you can't solve them, watch https://www.youtube.com/watch?v=ijjVDBPwA1o
 4.1) What is the final value of a in this example?
 var a = 5
-a = a - 3
-a = 5
-a = a + a
+a = a - 3 | a = 2
+a = 5 
+a = a + a | a = 5 + 5= 10
+answer is a = 10
 
 4.2) What is the final value of a in this example?
 var a = 3
 var b = 2
-var c = a + b
+var c = a + b | c = 3 + 2 = 5
 var b = 0
-var a = c - b
+var a = c - b | a = 5 - 0 = 5
 var b = 10
+answer is a = 5
 
 '''
 #part 1 
